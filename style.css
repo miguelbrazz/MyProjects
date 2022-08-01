@@ -33,7 +33,7 @@ a {
 
 .card {
   font-family: 'Heebo';
-  --bg-filter-opacity: 0.6;
+  --bg-filter-opacity: 0.7;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
   height: 20em;
   width: 15em;
