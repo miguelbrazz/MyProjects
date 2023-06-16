@@ -38,7 +38,7 @@ a {
   height: 20em;
   width: 15em;
   font-size: 1.5em;
-  color: white;
+  color: rgba(255, 255, 255, 0.548);
   border-radius: 1em;
   padding: 1em;
   display: flex;
@@ -49,12 +49,12 @@ a {
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 10px solid #ccc;
+  border: 10px solid rgba(223, 236, 255, 0.842);
   text-decoration: none;
 }
 
 .card:hover {
-  transform: rotate(0);
+  transform:scale(1.01);
 }
 
 .card h1 {
@@ -76,16 +76,14 @@ a {
 
 .card .tags .tag {
   font-size: 0.75em;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.253);
   border-radius: 0.3rem;
   padding: 0 0.5em;
   margin-right: 0.5em;
   line-height: 1.5em;
-  transition: all, var(--transition-time);
 }
 
 .card:hover .tags .tag {
-  background: var(--color);
   color: white;
 }
 
@@ -125,17 +123,14 @@ a {
 }
 
 .card:hover {
-  color: var(--color);
-}
-
-.card:hover:before, .card:hover:after {
-  transform: scale(1);
+  color: #fff;
 }
 
 .card-grid-space .num {
   font-size: 3em;
   margin-bottom: 1.2rem;
   margin-left: 1rem;
+  color: rgba(61, 95, 150, 0.712);
 }
 
 .info {
