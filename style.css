@@ -12,7 +12,7 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-	background:#101113;
+  background: radial-gradient(circle, rgba(150,114,184,1) 0%, rgba(78,92,187,1) 100%);
 }
 
 a {
@@ -32,7 +32,7 @@ a {
 
 .card {
   font-family: "Poppins", sans-serif;
-  --bg-filter-opacity: 0.7;
+  --bg-filter-opacity: 0.6;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
   height: 20em;
   width: 15em;
@@ -53,7 +53,7 @@ a {
 
 .card:hover {
   transform:scale(1.01);
-  border: 10px solid #4E5CBB;
+  border: 10px solid #e9e8e4;
 }
 
 .card h1 {
