@@ -189,4 +189,8 @@ a {
   .cards-wrapper {
     padding: 2rem 1rem;
   }
+
+  .card h1 span {
+    font-size: 1.93rem;
+  }
 }
